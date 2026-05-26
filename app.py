@@ -320,5 +320,5 @@ st.markdown(
     """
 )
 
-✅ Resume-ready AI project
+
 
