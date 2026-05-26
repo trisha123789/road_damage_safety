@@ -119,19 +119,7 @@ with col3:
 # BUILT-IN SAMPLE DATASET
 # ======================================================
 
-st.header("🗂️ Built-in Sample Dataset")
 
-sample_images = {
-    "Pothole": "sample_dataset/pothole.jpg",
-    "Crack": "sample_dataset/crack.jpg",
-    "Normal Road": "sample_dataset/normal.jpg",
-    "Road Patch": "sample_dataset/patch.jpg"
-}
-
-selected_sample = st.selectbox(
-    "Choose a sample road image",
-    list(sample_images.keys())
-)
 
 # ======================================================
 # SECTION 3 — UPLOAD AREA
